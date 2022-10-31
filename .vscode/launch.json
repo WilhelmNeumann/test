@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "https://www.doctolib.de/"
+        },
+        {
+            "type": "chrome",
+            "name": "https://www.doctolib.de/",
+            "request": "launch",
+            "url": "https://www.doctolib.de/"
+        }
+    ]
+}
